@@ -1,6 +1,6 @@
 # Java with Spark CRUD - Car Dealer
 
-This is a school project application which allows basic CRUD operations but also some more complicated things like generatine PDFs, uploading images and bitmap conversions.
+This is a school project application which allows basic CRUD operations and also some more complicated things like generatine PDFs, uploading images and bitmap conversions.
 
 Next part of the project is adding a REST API. It's currently developed.
 
