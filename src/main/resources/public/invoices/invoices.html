@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grzegorz Szewczyk - Invoices</title>
+
+    <link rel="stylesheet" href="./../styles.css">
+    <link rel="stylesheet" href="./invoicesStyles.css">
+
+    <script src="./invoicesScript.js" defer></script>
+</head>
+<body>
+
+<a href="./../index.html" class="editButton downloadLink goBack">⬅</a>
+
+<div class="limiter">
+    <div class="container tableContainer">
+        <button id="generateButton" class="warningButton">Generate</button>
+
+        <div class="formsContainer">
+            <div class="formContainer">
+                <button id="buttonInvoiceForAll" class="downloadLink editButton">Invoice for all</button>
+                <div id="invoiceForAllContainer" class="linkContainer"></div>
+            </div>
+
+            <hr/>
+
+            <div class="formContainer">
+                <div class="labelDiv yearDiv">
+                    <label for="yearSelect">Year</label>
+                    <select id="yearSelect">
+
+                    </select>
+                </div>
+                <button id="buttonInvoiceForYear" class="downloadLink editButton">Invoice for year</button>
+                <div id="invoiceForYearContainer" class="linkContainer"></div>
+            </div>
+
+            <hr/>
+
+            <div class="formContainer">
+                <div class="labelDiv priceDiv">
+                    <label for="minPrice">Min</label>
+                    <input type="number" value="10000" id="minPrice">$
+                </div>
+                <div class="labelDiv priceDiv">
+                    <label for="maxPrice">Max</label>
+                    <input type="number" value="50000" id="maxPrice">
+                    <p>$</p>
+                </div>
+                <button id="buttonInvoiceForPriceRange" class="downloadLink editButton">Invoice for price range</button>
+                <div id="invoiceForPriceRangeContainer" class="linkContainer"></div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+            <tr class="header">
+                <td>ID</td>
+                <td>Model</td>
+                <td>Year</td>
+                <td>Airbags</td>
+                <td>Color</td>
+                <td>Image</td>
+                <td>Date</td>
+                <td>Price</td>
+                <td>VAT</td>
+            </tr>
+            </thead>
+            <tbody id="carsList">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,174 @@
+.airbagsTd {
+    font-size: 13px;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+thead tr {
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    align-content: center;
+    border-radius: 10px 10px 0 0;
+}
+
+tbody tr {
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    align-content: center;
+    justify-content: center;
+}
+
+.colorDiv {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.imageDiv {
+    border-radius: 10%;
+    width: 75px;
+    height: 50px;
+}
+
+.airbagsTd {
+    width: 110%;
+}
+
+td {
+    justify-self: center;
+    align-self: center;
+}
+
+.formContainer button {
+    border: none;
+    width: 170px;
+    margin: 10px;
+}
+
+.formsContainer {
+    position: absolute;
+    left: 50px;
+    top: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+table {
+    margin-left: 50px;
+}
+
+input[type="number"] {
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    text-align: center;
+    margin: 10px auto;
+}
+
+hr {
+    height: 3px;
+    background: linear-gradient(45deg,#4158d0, #6e50c8);
+    border: none;
+}
+
+
+.labelDiv {
+    color: white;
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.yearDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.priceDiv {
+    grid-template-columns: 50px auto auto;
+}
+
+select {
+    margin-left: 0;
+}
+
+.invoiceLink {
+    font-size: 12px;
+    padding: 5px;
+    padding-left: 12px;
+    border-radius: 5px;
+    background-color: #643dd7;
+}
+
+.invoiceLink:hover {
+    background-color: darkviolet;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+/* Tooltip text */
+.tooltip {
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: collapse;
+    width: 200px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 10;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+.tooltip:hover .yearTip {
+    top: 40%;
+}
+
+.tooltip:hover .priceTip {
+    top: 80%;
+}

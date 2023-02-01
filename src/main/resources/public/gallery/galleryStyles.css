@@ -1,0 +1,68 @@
+h1 {
+    color: white;
+    margin-top: 10px;
+    height: 170px;
+}
+
+h2 {
+    color: #d09000;
+    height: 170px;
+}
+
+.galleryContainer {
+    padding: 10px;
+    background-color: #333333;
+    border-radius: 10px;
+    width: 60%;
+    height: fit-content;
+    max-height: 800px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#galleryBox {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    overflow: auto;
+}
+
+.galleryImage {
+    border-radius: 5px;
+    margin: 10px;
+    height: 200px;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.imageDiv {
+    border-radius: 10%;
+    height: 100%;
+}
+
+.editLink {
+    width: 50px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    background-color: #ffba00;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: -40px;
+    position: relative;
+    border: none;
+    text-align: center;
+}
+.editLink:hover {
+    color: white;
+    background-color: #d09000;
+}

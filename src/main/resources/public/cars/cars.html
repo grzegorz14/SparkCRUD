@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grzegorz Szewczyk - Cars</title>
+
+    <link rel="stylesheet" href="./../styles.css">
+    <link rel="stylesheet" href="./carsStyles.css">
+
+    <script src="./carsScript.js" defer></script>
+</head>
+<body>
+    <a href="./../index.html" class="editButton downloadLink goBack">⬅</a>
+
+    <div class="limiter">
+        <div class="editCarContainer" id="editCarContainer">
+            <div class="insideContainer">
+                <input type="text" name="editModelInput" id="editModelInput">
+                <select name="editCarYear" id="editCarYear">
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                </select>
+                <input type="submit" value="Edit" id="editCar">
+            </div>
+        </div>
+        <div class="container tableContainer">
+            <button id="generateButton" class="warningButton">Generate</button>
+            <table>
+                <thead>
+                    <tr class="header">
+                        <td>ID</td>
+                        <td>UUID</td>
+                        <td>Model</td>
+                        <td>Year</td>
+                        <td>Airbags</td>
+                        <td>Color</td>
+                        <td>Delete</td>
+                        <td>Update</td>
+                        <td>Upload</td>
+                        <td>Gallery</td>
+                    </tr>
+                </thead>
+                <tbody id="carsList">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

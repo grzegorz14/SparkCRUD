@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grzegorz Szewczyk - Spark</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+<div class="limiter">
+    <div class="container">
+        <div class="box">
+            <h1>Car Dealer</h1>
+
+            <div class="form">
+                <input type="text" name="carModel" id="carModel" placeholder="model">
+                <div>
+                    <label for="carYear">Year:</label>
+                    <select name="carYear" id="carYear">
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                    </select>
+                </div>
+                Airbags:
+                <div class="airbagsContainer">
+                    <label for="checkbox1">driver</label>
+                    <input type="checkbox" name="driverAirbag" id="checkbox1">
+                    <label for="checkbox2">passenger</label>
+                    <input type="checkbox" name="passengerAirbag" id="checkbox2">
+                    <label for="checkbox3">back seats</label>
+                    <input type="checkbox" name="backAirbag" id="checkbox3">
+                    <label for="checkbox4">sides</label>
+                    <input type="checkbox" name="sideAirbag" id="checkbox4">
+                </div>
+                <div class="colorBox">
+                    <label for="carColor">Color:</label>
+                    <input type="color" id="carColor" name="carColor" value="#00ffff">
+                </div>
+                <input type="submit" class="downloadLink editButton" value="Add" id="addCar">
+            </div>
+
+            <div>
+                <a href="./cars/cars.html">data</a>
+                |
+                <a href="./admin/admin.html">admin</a>
+                |
+                <a href="./invoices/invoices.html">invoices</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

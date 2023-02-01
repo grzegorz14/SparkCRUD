@@ -1,0 +1,66 @@
+.airbagsTd {
+    font-size: 13px;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+thead tr {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    align-content: center;
+    border-radius: 10px 10px 0 0;
+}
+
+tbody tr {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    align-content: center;
+    justify-content: center;
+}
+
+.colorDiv {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.imageDiv {
+    border-radius: 10%;
+    width: 75px;
+    height: 50px;
+}
+
+.airbagsTd {
+    width: 110%;
+}
+
+td {
+    justify-self: center;
+    align-self: center;
+}
+
+.link {
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #643dd7;
+}
+
+.link a {
+    color: white;
+    font-size: 13px;
+}
+
+.link:hover {
+    color: white;
+    background-color: darkviolet;
+}
+
